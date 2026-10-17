@@ -1,0 +1,5 @@
+__cmake_systeminformation
+build
+build-cmake-debug
+build-cmake-visual-studio-debug
+vcpkg_installed

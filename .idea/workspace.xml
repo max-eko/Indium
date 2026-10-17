@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="9" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
+    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoRenameType/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Indium" targetName="Indium" />
+      <config projectName="Indium" targetName="Threads::Threads" />
+      <config projectName="Indium" targetName="glfw" />
+      <config projectName="Indium" targetName="IndiumEngine" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Visual Studio" ENABLED="true" GENERATION_DIR="build" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=cmake/toolchain.cmake -DVCPKG_TARGET_TRIPLET=x64-windows" />
+      <configuration PROFILE_NAME="x64-debug" PROFILE_DISPLAY_NAME="x64 (Debug)" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/mingw-debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="892b32a4-3531-4bb6-a7d6-4a2f045a4239" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RKBDCQY/PythonProject/.idea/PythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RKBDCQY/hi/.idea/hi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RKBDCQY/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RMVGKXF.idea/Thallium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RT219UH/.idea/Mono.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RW9T4F5/.idea/Mono.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grinder/.idea/Grinder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Indium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/FindVulkan.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/ModuleSupport.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/toolchain.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/src/core/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/src/core/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/logger/logger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/logger/logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/render/context/render_context.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/render/context/render_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/window/platform/glfw.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/window/platform/glfw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/window/window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/window/window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/PythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_map_cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thallium/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thallium/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/GLFW/glfw3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/GLFW/glfw3native.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/KHR/khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glad/glad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_features.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_fixes.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_noise.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_swizzle.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_swizzle_func.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/_vectorize.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/compute_common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/compute_vector_decl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/compute_vector_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_common_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_exponential.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_exponential_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_geometric.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_geometric_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_integer_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_matrix.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_matrix_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_packing.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_packing_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_trigonometric.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_trigonometric_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_vector_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/func_vector_relational_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/glm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/qualifier.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/setup.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_float.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_half.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_half.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x2.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x3.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat2x4.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x2.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x3.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat3x4.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x2.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x3.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x4.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_mat4x4_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_quat.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_quat.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_quat_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec1.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec2.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec3.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec4.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/detail/type_vec_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/exponential.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/_matrix_vectorize.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_clip_space.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_clip_space.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double2x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double3x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_double4x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float2x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float3x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_float4x4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int2x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int3x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_int4x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_projection.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_projection.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_transform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_transform.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint2x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint3x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/matrix_uint4x4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_common_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_double.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_double_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_exponential.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_exponential.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_float.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_float_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_geometric.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_geometric.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_transform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_transform.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_trigonometric.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/quaternion_trigonometric.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_constants.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_constants.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_int_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_packing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_packing.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_reciprocal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_reciprocal.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_uint_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_ulp.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/scalar_ulp.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool1_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_bool4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double1_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_double4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float1_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float2_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float3_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_float4_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int1_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_int4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_packing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_packing.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_reciprocal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_reciprocal.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint1_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint2_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint3_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_uint4_sized.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_ulp.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/ext/vector_ulp.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/fwd.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/geometric.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/glm.cppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/glm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/bitfield.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/bitfield.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/color_space.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/color_space.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/constants.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/constants.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/epsilon.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/epsilon.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_access.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_access.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_inverse.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_inverse.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_transform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/matrix_transform.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/noise.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/noise.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/packing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/packing.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/quaternion.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/quaternion.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/quaternion_simd.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/random.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/random.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/reciprocal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/round.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/round.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/type_aligned.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/type_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/type_precision.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/type_ptr.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/type_ptr.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/ulp.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/ulp.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtc/vec1.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/associated_min_max.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/associated_min_max.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/bit.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/bit.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/closest_point.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/closest_point.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_encoding.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_encoding.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_space.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_space.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_space_YCoCg.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/color_space_YCoCg.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/common.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/common.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/compatibility.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/compatibility.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/component_wise.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/component_wise.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/dual_quaternion.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/dual_quaternion.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/easing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/easing.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/euler_angles.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/euler_angles.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/extend.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/extend.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/extended_min_max.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/extended_min_max.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/exterior_product.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/exterior_product.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_exponential.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_exponential.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_square_root.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_square_root.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_trigonometry.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/fast_trigonometry.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/float_normalize.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/functions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/functions.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/gradient_paint.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/gradient_paint.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/handed_coordinate_space.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/handed_coordinate_space.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/hash.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/hash.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/integer.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/intersect.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/intersect.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/io.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/io.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/iteration.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/iteration.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/log_base.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/log_base.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_cross_product.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_cross_product.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_decompose.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_decompose.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_factorisation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_factorisation.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_interpolation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_interpolation.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_major_storage.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_major_storage.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_operation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_operation.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_query.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_query.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_transform_2d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/matrix_transform_2d.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/mixed_product.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/mixed_product.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/norm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/norm.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/normal.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/normal.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/normalize_dot.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/normalize_dot.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/number_precision.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/optimum_pow.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/optimum_pow.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/orthonormalize.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/orthonormalize.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/pca.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/pca.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/perpendicular.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/perpendicular.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/polar_coordinates.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/polar_coordinates.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/projection.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/projection.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/quaternion.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/quaternion.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/range.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/raw_data.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/raw_data.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/rotate_normalized_axis.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/rotate_normalized_axis.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/rotate_vector.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/rotate_vector.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/scalar_multiplication.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/scalar_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/scalar_relational.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/spline.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/spline.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/std_based_type.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/std_based_type.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/string_cast.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/string_cast.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/structured_bindings.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/structured_bindings.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/texture.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/texture.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/transform.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/transform.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/transform2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/transform2.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/type_aligned.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/type_aligned.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/type_trait.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/type_trait.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/vec_swizzle.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/vector_angle.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/vector_angle.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/vector_query.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/vector_query.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/wrap.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/gtx/wrap.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/integer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat2x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat2x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat2x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat3x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat3x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat3x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat4x2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat4x3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/mat4x4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/matrix.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/packing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/exponential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/geometric.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/integer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/neon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/packing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/trigonometric.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/simd/vector_relational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/trigonometric.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/vec2.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/vec3.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/vec4.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/glm/vector_relational.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/stb/stb_image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/include/stb/stb_image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/CMakeFiles/Export/1e829e3d292b021f8d48f0e209725d79/assimpTargets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/CMakeFiles/Export/1e829e3d292b021f8d48f0e209725d79/assimpTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/assimp.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/cmake_uninstall.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/code/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/contrib/zlib/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/contrib/zlib/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/contrib/zlib/zconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/contrib/zlib/zlib.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/generated/assimpConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/generated/assimpConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/glad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/glfw3.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/include/assimp/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/include/assimp/revision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/test/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/external/lib/test/headercheck/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/src/core/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thallium/src/core/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/src/shaders/shader.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/src/shaders/shader.vert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/src/util/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thallium/src/util/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thallium/src/util/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Thallium/src/util/shader.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;max-eko&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/max-eko/Thallium.git&quot;,
+    &quot;accountId&quot;: &quot;9c5c3c53-2421-4874-8b6f-80d707d262c7&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="KiVraYjY" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3KG7hpQ4TLRXioT43n4Y2zwasan" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.Indium.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.IndiumEngine.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Indium\lib\src\render\context" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.IndiumEngine">
+    <configuration name="Indium" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="Indium" RUN_TARGET_NAME="IndiumEngine" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndiumEngine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Indium" TARGET_NAME="IndiumEngine" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="Indium" RUN_TARGET_NAME="IndiumEngine">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndiumLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Indium" TARGET_NAME="Indium" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Threads::Threads" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Indium" TARGET_NAME="Threads::Threads" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Indium" TARGET_NAME="glfw" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.glfw" />
+      <item itemvalue="CMake Application.Indium" />
+      <item itemvalue="CMake Application.IndiumLib" />
+      <item itemvalue="CMake Application.IndiumEngine" />
+      <item itemvalue="CMake Application.Threads::Threads" />
+    </list>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.IndiumEngine",
+        "cmake": "CMakeBuildProfile:Debug-Visual Studio"
+      },
+      "second": "582828ab-dfb1-4534-9563-7b45148489cc"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.Indium",
+        "cmake": "CMakeBuildProfile:Debug-Visual Studio"
+      },
+      "second": "582828ab-dfb1-4534-9563-7b45148489cc"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.IndiumLib",
+        "cmake": "CMakeBuildProfile:Debug-Visual Studio"
+      },
+      "second": "582828ab-dfb1-4534-9563-7b45148489cc"
+    }
+  ],
+  "modificationCount": 19
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="892b32a4-3531-4bb6-a7d6-4a2f045a4239" name="Changes" comment="" />
+      <created>1791172175527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791172175527</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
