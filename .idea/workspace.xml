@@ -44,17 +44,13 @@
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RT219UH/.idea/Mono.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RW9T4F5/.idea/Mono.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Grinder/.idea/Grinder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/PythonProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/src/core/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/core/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/src/core/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/core/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/logger/logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/logger/logger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/logger/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/logger/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />

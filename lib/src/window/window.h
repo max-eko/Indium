@@ -29,6 +29,7 @@ public:
   [[nodiscard]] virtual bool isOpen() const = 0;
 
   static std::shared_ptr<IWindow> createWindow(const WindowProps& props);
+
 protected:
   int width;
   int height;
