@@ -31,7 +31,8 @@ Next, generate build files with the following command:
 cmake --preset [x86/x64]-windows-[Debug/Release]
 ```
 
-<sub>NOTE: Remember to replace [x86/x64] and [Debug/Release] with your actual architecture and build type.</sub>
+> [!NOTE]
+> Remember to replace [x86/x64] and [Debug/Release] with your actual architecture and build type.
 
 Now, configuration is complete.
 
