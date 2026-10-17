@@ -45,5 +45,5 @@ cmake --build build
 
 Lastly, to run the executable, you can simply run:  
 ```powershell
-build\IndiumEngine.exe
+build/IndiumEngine.exe
 ```
