@@ -4,8 +4,8 @@
 
 int main()
 {
-  Application m_App(640,480);
-  if (!m_App.run())
+  Application app(640,480);
+  if (!app.run())
   {
     return EXIT_FAILURE;
   }

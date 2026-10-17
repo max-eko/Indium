@@ -10,11 +10,10 @@ enum class Status
   ERR
 };
 
-class Logger
+namespace log
 {
-public:
-  Logger();
-  void Log(const std::string &message, Status status = Status::INFO);
+  void init();
+  void log(const std::string &message, Status status = Status::INFO);
 };
 
 #endif

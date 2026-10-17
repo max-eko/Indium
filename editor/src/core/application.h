@@ -17,10 +17,9 @@ public:
 
 private:
   bool init();
-  bool process();
+  inline bool process();
   bool cleanup();
 
-  std::shared_ptr<Logger> logger;
   std::shared_ptr<IWindow> window;
   std::unique_ptr<IContext> context;
 };

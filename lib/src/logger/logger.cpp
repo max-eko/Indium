@@ -7,7 +7,7 @@
 #include <windows.h>
 #endif
 
-Logger::Logger()
+void log::init()
 {
 #ifdef _WIN32
   // Forces the Windows console to interpret ANSI escape codes
@@ -21,7 +21,7 @@ Logger::Logger()
   }
 #endif
 }
-void Logger::Log(const std::string &message, Status status)
+void log::log(const std::string &message, Status status)
 {
   using namespace std::chrono;
 

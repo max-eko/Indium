@@ -10,28 +10,26 @@ Application::Application(int w, int h) : window { IWindow::createWindow(WindowPr
 
 bool Application::run()
 {
-  logger = std::make_shared<Logger>();
-
   if (!init())
   {
-    logger->Log("Engine initialization failed", Status::ERR);
+    log::log("Engine initialization failed", Status::ERR);
     return false;
   }
 
-  logger->Log("Engine running");
+  log::log("Engine running");
 
   while (window->isOpen())
   {
     if (!process())
     {
-      logger->Log("Engine failed", Status::ERR);
+      log::log("Engine failed", Status::ERR);
       return false;
     }
   }
 
   if (!cleanup())
   {
-    logger->Log("Engine cleanup failed", Status::ERR);
+    log::log("Engine cleanup failed", Status::ERR);
     return false;
   }
 
@@ -49,16 +47,16 @@ bool Application::init()
 
   if (!window->init())
   {
-    logger->Log("Window creation failed!", Status::ERR);\
+    log::log("Window creation failed!", Status::ERR);\
     return false;
   }
 
-  logger->Log("Engine initialized", Status::INFO);
+  log::log("Engine initialized", Status::INFO);
 
   return true;
 }
 
-bool Application::process()
+inline bool Application::process()
 {
   window->pollEvents();
 
@@ -67,7 +65,7 @@ bool Application::process()
 
 bool Application::cleanup()
 {
-  logger->Log("Engine cleaned up", Status::INFO);
+  log::log("Engine cleaned up", Status::INFO);
 
   window->terminate();
 
