@@ -1,4 +1,4 @@
-#include "logger.h"
+#include "logger/logger.h"
 
 #include <chrono>
 #include <iostream>
@@ -7,7 +7,7 @@
 #include <windows.h>
 #endif
 
-void log::init()
+void logger::init()
 {
 #ifdef _WIN32
   // Forces the Windows console to interpret ANSI escape codes
@@ -21,7 +21,7 @@ void log::init()
   }
 #endif
 }
-void log::log(const std::string &message, Status status)
+void logger::log(const std::string &message, Status status)
 {
   using namespace std::chrono;
 

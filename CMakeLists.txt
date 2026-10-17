@@ -1,4 +1,13 @@
 cmake_minimum_required(VERSION 4.3)
+
+# Automatically loads vcpkg setup when project() is called
+if(NOT DEFINED ENV{VCPKG_ROOT})
+  message(FATAL_ERROR "The VCPKG_ROOT environment variable is not defined!")
+endif()
+
+file(TO_CMAKE_PATH "$ENV{VCPKG_ROOT}" VCPKG_PATH)
+set(CMAKE_TOOLCHAIN_FILE "${VCPKG_PATH}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "")
+
 project(Indium)
 
 set(CMAKE_CXX_STANDARD 20)

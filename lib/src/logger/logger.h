@@ -10,7 +10,7 @@ enum class Status
   ERR
 };
 
-namespace log
+namespace logger
 {
   void init();
   void log(const std::string &message, Status status = Status::INFO);

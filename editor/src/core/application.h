@@ -12,7 +12,7 @@
 class Application
 {
 public:
-  Application(int w, int h);
+  Application(int w, int h, const std::string& name);
   bool run();
 
 private:
