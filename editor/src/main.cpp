@@ -1,6 +1,6 @@
 #include <cstdlib>
 
-#include "core/application.h"
+#include "core/Application.h"
 
 int main()
 {

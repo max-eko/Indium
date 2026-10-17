@@ -1,5 +1,5 @@
-#include "window/window.h"
-#include "window/platform/glfw.h"
+#include "window/Window.h"
+#include "window/platform/GLFW.h"
 
 IWindow::IWindow() = default;
 

@@ -5,9 +5,8 @@
 #include <memory>
 
 // Core Library Headers
-#include "logger/logger.h"
-#include "window/window.h"
-#include "render/context/render_context.h"
+#include "window/Window.h"
+#include "render/context/RenderContext.h"
 
 class Application
 {

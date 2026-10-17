@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-17T13:46:22.789086300-07:00",
+  "data": {
+    "D:\\Indium\\cmake\\FindVulkan.cmake": [
+      {
+        "label": "_Vulkan_set_library_component_found",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "CMAKE_FIND_ROOT_PATH_MODE_PROGRAM",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "CMAKE_FIND_ROOT_PATH_MODE_LIBRARY",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "CMAKE_FIND_ROOT_PATH_MODE_INCLUDE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_library_name",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_include_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_executable_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_library_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_executable_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_library_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_library_name",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_include_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_executable_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_library_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_INCLUDE_DIR",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_Layer_API_DUMP",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "VkLayer_khronos_shader_object",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_Layer_SYNC2",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_Layer_VALIDATION",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_GLSLC_EXECUTABLE",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-spirv_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-spirv_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-oglcompiler_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-oglcompiler_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-osdependent_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-osdependent_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-machineindependent_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-machineindependent_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-genericcodegen_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang-genericcodegen_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslang_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_shaderc_combined_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_shaderc_combined_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_SPIRV-Tools_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_SPIRV-Tools_DEBUG_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_library_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "_Vulkan_hint_library_search_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_INCLUDE_DIR",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_Volk_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_dxc_LIBRARY",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_dxc_EXECUTABLE",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "defined var\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslc_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslc_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslangValidator_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_glslangValidator_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_dxc_exe_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_dxc_exe_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "all_dependent_component_found",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "all_dependent_component_found",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_${component}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_${component}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_LIBRARIES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake\n\ndetect version e.g 1.2.189"
+      },
+      {
+        "label": "VULKAN_CORE_H",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "VK_MVK_MOLTENVK_H",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Vulkan_MoltenVK_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\cmake\\FindVulkan.cmake"
+      },
+      {
+        "label": "Threads_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: Threads"
+      },
+      {
+        "label": "Threads_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: Threads"
+      }
+    ],
+    "D:\\Indium\\CMakeLists.txt": [
+      {
+        "label": "CMAKE_TOOLCHAIN_FILE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\CMakeLists.txt"
+      },
+      {
+        "label": "CMAKE_CXX_STANDARD",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\CMakeLists.txt"
+      },
+      {
+        "label": "LIB_ROOT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\CMakeLists.txt\n\nUtility Variables"
+      },
+      {
+        "label": "EDITOR_ROOT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\CMakeLists.txt"
+      },
+      {
+        "label": "VULKAN_PATH",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: D:\\Indium\\CMakeLists.txt"
+      },
+      {
+        "label": "glfw3_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: glfw3"
+      },
+      {
+        "label": "glfw3_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: glfw3"
+      },
+      {
+        "label": "glm_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: glm"
+      },
+      {
+        "label": "glm_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: glm"
+      },
+      {
+        "label": "Vulkan_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: Vulkan"
+      },
+      {
+        "label": "Vulkan_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: Vulkan"
+      }
+    ]
+  }
+}

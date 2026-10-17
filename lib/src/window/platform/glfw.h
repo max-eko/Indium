@@ -1,7 +1,7 @@
 #ifndef INDIUM_LIB_SRC_WINDOW_PLATFORM_GLFW_H
 #define INDIUM_LIB_SRC_WINDOW_PLATFORM_GLFW_H
 
-#include "window/window.h"
+#include "window/Window.h"
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>

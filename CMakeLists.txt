@@ -31,7 +31,9 @@ get_target_property(GLFW_INCLUDES glfw
 message(STATUS "GLFW include directories: ${GLFW_INCLUDES}")
 
 find_package(glm REQUIRED)
-find_package(slang CONFIG HINTS "${VULKAN_PATH}/lib/cmake")
+
+# find_package(slang CONFIG HINTS "${VULKAN_PATH}/lib/cmake")
+
 find_package (Vulkan 1.4.335 REQUIRED)
 
 include(ModuleSupport)
@@ -40,17 +42,17 @@ include(ModuleSupport)
 add_library(Indium)
 target_sources(Indium
   PRIVATE
-    ${LIB_ROOT}/src/logger/logger.cpp
-    ${LIB_ROOT}/src/window/window.cpp
-    ${LIB_ROOT}/src/render/context/render_context.cpp
-    ${LIB_ROOT}/src/window/platform/glfw.cpp
+    ${LIB_ROOT}/src/logger/Logger.cpp
+    ${LIB_ROOT}/src/window/Window.cpp
+    ${LIB_ROOT}/src/render/context/RenderContext.cpp
+    ${LIB_ROOT}/src/window/platform/GLFW.cpp
   PRIVATE FILE_SET HEADERS
     BASE_DIRS ${LIB_ROOT}/src
     FILES
-    ${LIB_ROOT}/src/logger/logger.h
-    ${LIB_ROOT}/src/window/window.h
-    ${LIB_ROOT}/src/render/context/render_context.h
-    ${LIB_ROOT}/src/window/platform/glfw.h
+    ${LIB_ROOT}/src/logger/Logger.h
+    ${LIB_ROOT}/src/window/Window.h
+    ${LIB_ROOT}/src/render/context/RenderContext.h
+    ${LIB_ROOT}/src/window/platform/GLFW.h
 )
 target_include_directories(Indium PUBLIC ${LIB_ROOT}/src)
 target_link_libraries(Indium
@@ -62,7 +64,7 @@ add_executable(IndiumEngine)
 target_sources(IndiumEngine
   PRIVATE
     ${EDITOR_ROOT}/src/main.cpp
-    ${EDITOR_ROOT}/src/core/application.cpp
+    ${EDITOR_ROOT}/src/core/Application.cpp
   PRIVATE FILE_SET HEADERS
     BASE_DIRS ${EDITOR_ROOT}/src
     FILES

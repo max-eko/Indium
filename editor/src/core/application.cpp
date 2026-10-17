@@ -1,10 +1,10 @@
-#include "core/application.h"
+#include "core/Application.h"
 
 // Standard Library
 #include <string>
 
 // Core Library Headers
-#include "logger/logger.h"
+#include "logger/Logger.h"
 
 Application::Application(int w, int h, const std::string& name) : window { IWindow::createWindow(WindowProps(w, h, name))} {}
 

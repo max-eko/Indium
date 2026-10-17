@@ -1,4 +1,4 @@
-#include "window/platform/glfw.h"
+#include "window/platform/GLFW.h"
 
 GLFWWindowImpl::GLFWWindowImpl(const WindowProps& props)
 {
