@@ -25,6 +25,11 @@ bool Application::run()
     if (!process())
     {
       logger::log("Engine failed", Status::ERR);
+      if (!cleanup())
+      {
+        logger::log("Engine cleanup failed", Status::ERR);
+        return false;
+      }
       return false;
     }
   }

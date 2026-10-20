@@ -1,10 +1,13 @@
 #ifndef INDIUM_LIB_SRC_WINDOW_PLATFORM_GLFW_H
 #define INDIUM_LIB_SRC_WINDOW_PLATFORM_GLFW_H
 
-#include "window/Window.h"
-
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
+
+#include <string>
+
+#include "window/Window.h"
+
 
 class GLFWWindowImpl: public IWindow
 {
@@ -16,6 +19,9 @@ public:
   void pollEvents() override;
   void terminate() const override;
 
+  inline void setWidth(int w) override;
+  inline void setHeight(int h) override;
+  
   [[nodiscard]] bool isOpen() const override;
 
 private:

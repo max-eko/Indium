@@ -58,13 +58,13 @@
       <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakePresets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CMakePresets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/toolchain.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.zed/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.zed/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor/src/core/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/core/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/logger/logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/logger/logger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/logger/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/logger/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/render/context/RenderContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/context/RenderContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/render/context/RenderContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/context/RenderContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/glfw.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/glfw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />

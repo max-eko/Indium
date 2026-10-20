@@ -39,3 +39,6 @@ bool GLFWWindowImpl::isOpen() const
 {
   return !glfwWindowShouldClose(handle);
 }
+
+inline void GLFWWindowImpl::setWidth(int w) { width = w; }
+inline void GLFWWindowImpl::setHeight(int h) { height = h; }
