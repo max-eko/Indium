@@ -4,8 +4,6 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
-#include <cstdint>
-
 #include "window/Window.h"
 
 
@@ -14,6 +12,8 @@ class GLFWWindowImpl: public IWindow
 public:
   GLFWWindowImpl(const WindowProps& props);
   ~GLFWWindowImpl() override = default;
+
+  const char** getVulkanExtensions(uint32_t* count) override;
 
   void init() override;
   void pollEvents() override;

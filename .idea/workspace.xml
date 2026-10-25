@@ -58,7 +58,8 @@
       <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/GLFW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/GLFW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/RenderSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/RenderSurface.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />

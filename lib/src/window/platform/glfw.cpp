@@ -31,6 +31,8 @@ void GLFWWindowImpl::init()
 
   m_WindowCount++;
 
+
+
 }
 
 void GLFWWindowImpl::pollEvents()
@@ -57,3 +59,8 @@ bool GLFWWindowImpl::isOpen() const
 
 inline void GLFWWindowImpl::setWidth(int w) { width = w; }
 inline void GLFWWindowImpl::setHeight(int h) { height = h; }
+
+const char** GLFWWindowImpl::getVulkanExtensions(uint32_t* count)
+{
+  return glfwGetRequiredInstanceExtensions(count);
+}

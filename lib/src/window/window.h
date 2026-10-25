@@ -4,6 +4,8 @@
 #include <string>
 #include <memory>
 
+#include "RenderSurface.h"
+
 struct WindowProps
 {
   int width;
@@ -11,11 +13,11 @@ struct WindowProps
   std::string name;
 };
 
-class IWindow
+class IWindow : public IRenderSurface
 {
 public:
   IWindow() = default;
-  virtual ~IWindow() = default;
+  ~IWindow() override = default;
 
   virtual void init() = 0;
   virtual void pollEvents() = 0;
@@ -24,6 +26,7 @@ public:
   [[nodiscard]] int getWidth() const { return width; }
   [[nodiscard]] int getHeight() const { return height; }
   [[nodiscard]] std::string getName() const { return name;}
+
   inline virtual void setWidth(int w) = 0;
   inline virtual void setHeight(int h) = 0;
 

@@ -1,12 +1,14 @@
 #ifndef INDIUM_LIB_SRC_WINDOW_RENDERSURFACE_H
 #define INDIUM_LIB_SRC_WINDOW_RENDERSURFACE_H
 
+#include <vector>
+
 class IRenderSurface {
 public:
   IRenderSurface() = default;
-  virtual ~IRenderSurface();
+  virtual ~IRenderSurface() = default;
   
-  virtual void bindSwapchain() = 0;
+  virtual const char** getVulkanExtensions(uint32_t* count) = 0;
 };
 
 #endif
