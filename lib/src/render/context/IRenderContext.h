@@ -3,7 +3,7 @@
 
 #include <memory>
 
-#include "window/Window.h"
+#include "window/IWindow.h"
 
 enum class RenderAPI {
   None = 0,
