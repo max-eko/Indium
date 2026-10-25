@@ -54,22 +54,11 @@
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RT219UH/.idea/Mono.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-3742449590-1721606851-1419574441-1004/$RW9T4F5/.idea/Mono.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Grinder/.idea/Grinder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/window/RenderSurface.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/window/RenderSurface.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PythonProject/.idea/PythonProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/toolchain.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/src/core/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/core/Application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/src/core/Application.h" beforeDir="false" afterPath="$PROJECT_DIR$/editor/src/core/Application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/render/context/RenderContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/context/RenderContext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/render/context/platform/vulkan/VkRenderContextImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/context/platform/vulkan/VkRenderContextImpl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/render/context/platform/vulkan/VkRenderContextImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/context/platform/vulkan/VkRenderContextImpl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/glfw.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/glfw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/GLFW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/GLFW.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />

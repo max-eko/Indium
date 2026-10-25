@@ -28,6 +28,9 @@ void GLFWWindowImpl::init()
   {
     throw std::runtime_error("Window was not created");
   }
+
+  m_WindowCount++;
+
 }
 
 void GLFWWindowImpl::pollEvents()
@@ -38,7 +41,13 @@ void GLFWWindowImpl::pollEvents()
 void GLFWWindowImpl::terminate() const
 {
   glfwDestroyWindow(m_Handle);
-  glfwTerminate();
+
+  m_WindowCount--;
+
+  if (m_WindowCount == 0)
+  {
+    glfwTerminate();
+  }
 }
 
 bool GLFWWindowImpl::isOpen() const
