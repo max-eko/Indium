@@ -2,6 +2,7 @@
 
 #include <chrono>
 #include <iostream>
+#include <source_location>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -9,6 +10,8 @@
 
 void logger::init()
 {
+  std::ios_base::sync_with_stdio(false);
+  std::cin.tie(nullptr);
 #ifdef _WIN32
   // Forces the Windows console to interpret ANSI escape codes
   HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -21,7 +24,7 @@ void logger::init()
   }
 #endif
 }
-void logger::log(const std::string &message, Status status)
+void logger::log(const std::string &message, Status status, const std::source_location& location)
 {
   using namespace std::chrono;
 
@@ -35,10 +38,10 @@ void logger::log(const std::string &message, Status status)
     std::cout << "\033[90m[" << time << " UTC] \033[0m" << message << "\n";
     break;
   case Status::WARN:
-    std::cout << "\033[33m[" << time << " UTC] WARNING: " << message << "\033[0m\n";
+    std::cout << "\033[33m[" << time << " UTC] WARNING: " << message <<  " on line " << location.line() << " in file " << location.file_name() << "\033[0m\n";
     break;
   case Status::ERR:
-    std::cout << "\033[91m[" << time << " UTC] ERROR: " << message << "\033[0m\n";
+    std::cout << "\033[91m[" << time << " UTC] ERROR: " << message << " on line " << location.line() << " in file " << location.file_name() << "\033[0m\n";
     break;
     }
 }

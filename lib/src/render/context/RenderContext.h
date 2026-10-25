@@ -18,9 +18,10 @@ public:
   IContext() = default;
   virtual ~IContext() = default;
 
+  virtual void init();
   virtual void bindWindow(IWindow& window);
   
-  [[nodiscard]] inline virtual RenderAPI getRenderAPI() const;
+  [[nodiscard]] virtual RenderAPI getRenderAPI() const;
   
   static std::shared_ptr<IContext> createContext();
 };

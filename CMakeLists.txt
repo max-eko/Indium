@@ -53,6 +53,7 @@ target_link_libraries(Indium
   PRIVATE
     glfw
     Vulkan::Vulkan
+    Vulkan::Headers
 )
 # Indium Editor
 add_executable(IndiumEngine)

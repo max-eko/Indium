@@ -1,5 +1,10 @@
 #include "window/platform/GLFW.h"
 
+#define GLFW_INCLUDE_VULKAN
+#include <GLFW/glfw3.h>
+
+#include <stdexcept>
+
 GLFWWindowImpl::GLFWWindowImpl(const WindowProps& props)
 {
   width = props.width;
@@ -7,21 +12,22 @@ GLFWWindowImpl::GLFWWindowImpl(const WindowProps& props)
   name = props.name;
 }
 
-bool GLFWWindowImpl::init()
+void GLFWWindowImpl::init()
 {
-  glfwInit();
+  if (m_WindowCount == 0)
+  {
+    if (!glfwInit()) { throw std::runtime_error("GLFW initialization failed"); }
+  }
 
   glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
   glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
-  handle = glfwCreateWindow(width, height, name.c_str(), nullptr, nullptr);
+  m_Handle = glfwCreateWindow(width, height, name.c_str(), nullptr, nullptr);
 
-  if (handle == nullptr)
+  if (m_Handle == nullptr)
   {
-    return false;
+    throw std::runtime_error("Window was not created");
   }
-
-  return true;
 }
 
 void GLFWWindowImpl::pollEvents()
@@ -31,13 +37,13 @@ void GLFWWindowImpl::pollEvents()
 
 void GLFWWindowImpl::terminate() const
 {
-  glfwDestroyWindow(handle);
+  glfwDestroyWindow(m_Handle);
   glfwTerminate();
 }
 
 bool GLFWWindowImpl::isOpen() const
 {
-  return !glfwWindowShouldClose(handle);
+  return !glfwWindowShouldClose(m_Handle);
 }
 
 inline void GLFWWindowImpl::setWidth(int w) { width = w; }

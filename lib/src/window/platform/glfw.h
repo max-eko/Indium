@@ -4,7 +4,7 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
-#include <string>
+#include <cstdint>
 
 #include "window/Window.h"
 
@@ -15,7 +15,7 @@ public:
   GLFWWindowImpl(const WindowProps& props);
   ~GLFWWindowImpl() override = default;
 
-  bool init() override;
+  void init() override;
   void pollEvents() override;
   void terminate() const override;
 
@@ -25,7 +25,8 @@ public:
   [[nodiscard]] bool isOpen() const override;
 
 private:
-  GLFWwindow* handle = nullptr;
+  GLFWwindow* m_Handle = nullptr;
+  static uint32_t m_WindowCount;
 };
 
 #endif

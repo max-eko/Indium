@@ -17,12 +17,13 @@ public:
   IWindow() = default;
   virtual ~IWindow() = default;
 
-  virtual bool init() = 0;
+  virtual void init() = 0;
   virtual void pollEvents() = 0;
   virtual void terminate() const = 0;
 
-  [[nodiscard]] inline int getWidth() const { return width; }
-  [[nodiscard]] inline int getHeight() const { return height; }
+  [[nodiscard]] int getWidth() const { return width; }
+  [[nodiscard]] int getHeight() const { return height; }
+  [[nodiscard]] std::string getName() const { return name;}
   inline virtual void setWidth(int w) = 0;
   inline virtual void setHeight(int h) = 0;
 

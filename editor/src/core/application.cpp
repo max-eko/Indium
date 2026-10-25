@@ -12,9 +12,10 @@ bool Application::run()
 {
   logger::init();
 
-  if (!init())
+  try { init(); }
+  catch (const std::exception& e)
   {
-    logger::log("Engine initialization failed", Status::ERR);
+    logger::log(e.what(), Status::ERR);
     return false;
   }
 
@@ -22,28 +23,32 @@ bool Application::run()
 
   while (window->isOpen())
   {
-    if (!process())
-    {
-      logger::log("Engine failed", Status::ERR);
-      if (!cleanup())
+    try { process(); }
+    catch ( const std::exception& e) {
+      logger::log(e.what(), Status::ERR);
+
+      try { cleanup(); }
+      catch (const std::exception& err)
       {
-        logger::log("Engine cleanup failed", Status::ERR);
+        logger::log(err.what(), Status::ERR);
         return false;
       }
+
       return false;
     }
   }
 
-  if (!cleanup())
+  try { cleanup(); }
+  catch (const std::exception& e)
   {
-    logger::log("Engine cleanup failed", Status::ERR);
+    logger::log(e.what(), Status::ERR);
     return false;
   }
 
   return true;
 }
 
-bool Application::init()
+void Application::init()
 {
   WindowProps props = {
     640,
@@ -52,30 +57,21 @@ bool Application::init()
   };
   window = IWindow::createWindow(props);
 
-  if (!window->init())
-  {
-    logger::log("Window creation failed!", Status::ERR);\
-    return false;
-  }
+  try { window->init(); }
+  catch (const std::exception& e) { throw e; }
 
   logger::log("Engine initialized", Status::INFO);
-
-  return true;
 }
 
-inline bool Application::process()
+inline void Application::process()
 {
   window->pollEvents();
-
-  return true;
 }
 
-bool Application::cleanup()
+void Application::cleanup()
 {
   logger::log("Engine cleaned up", Status::INFO);
 
   window->terminate();
-
-  return true;
 }
 

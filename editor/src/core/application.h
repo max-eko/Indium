@@ -15,9 +15,9 @@ public:
   bool run();
 
 private:
-  bool init();
-  inline bool process();
-  bool cleanup();
+  void init();
+  inline void process();
+  void cleanup();
 
   std::shared_ptr<IWindow> window;
   std::unique_ptr<IContext> context;
