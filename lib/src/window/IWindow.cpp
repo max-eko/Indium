@@ -1,5 +1,5 @@
-#include "window/Window.h"
-#include "window/platform/GLFW.h"
+#include "window/IWindow.h"
+#include "window/platform/GLFWWindowImpl.h"
 
 void IWindow::setWidth(int w) { width = w; }
 void IWindow::setHeight(int h) { height = h; }

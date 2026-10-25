@@ -4,7 +4,7 @@
 #include <string>
 #include <memory>
 
-#include "RenderSurface.h"
+#include "IRenderSurface.h"
 
 struct WindowProps
 {

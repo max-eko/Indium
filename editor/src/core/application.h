@@ -5,8 +5,8 @@
 #include <memory>
 
 // Core Library Headers
-#include "window/Window.h"
-#include "render/context/RenderContext.h"
+#include "render/context/IRenderContext.h"
+#include "window/IWindow.h"
 
 class Application
 {

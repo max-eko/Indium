@@ -5,7 +5,7 @@
 
 #include <string>
 
-#include "render/context/RenderContext.h"
+#include "render/context/IRenderContext.h"
 
 class VkRenderContextImpl : public IContext {
 public:

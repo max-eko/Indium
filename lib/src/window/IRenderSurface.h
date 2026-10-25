@@ -1,8 +1,6 @@
 #ifndef INDIUM_LIB_SRC_WINDOW_RENDERSURFACE_H
 #define INDIUM_LIB_SRC_WINDOW_RENDERSURFACE_H
 
-#include <vector>
-
 class IRenderSurface {
 public:
   IRenderSurface() = default;

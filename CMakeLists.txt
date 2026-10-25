@@ -35,17 +35,17 @@ add_library(Indium)
 target_sources(Indium
   PRIVATE
     ${LIB_ROOT}/src/logger/Logger.cpp
-    ${LIB_ROOT}/src/window/Window.cpp
-    ${LIB_ROOT}/src/render/context/RenderContext.cpp
-    ${LIB_ROOT}/src/window/platform/GLFW.cpp
+    ${LIB_ROOT}/src/window/IWindow.cpp
+    ${LIB_ROOT}/src/render/context/IRenderContext.cpp
+    ${LIB_ROOT}/src/window/platform/GLFWWindowImpl.cpp
     ${LIB_ROOT}/src/render/context/platform/vulkan/VkRenderContextImpl.cpp
   PRIVATE FILE_SET HEADERS
     BASE_DIRS ${LIB_ROOT}/src
     FILES
     ${LIB_ROOT}/src/logger/Logger.h
-    ${LIB_ROOT}/src/window/Window.h
-    ${LIB_ROOT}/src/render/context/RenderContext.h
-    ${LIB_ROOT}/src/window/platform/GLFW.h
+    ${LIB_ROOT}/src/window/IWindow.h
+    ${LIB_ROOT}/src/render/context/IRenderContext.h
+    ${LIB_ROOT}/src/window/platform/GLFWWindowImpl.h
     ${LIB_ROOT}/src/render/context/platform/vulkan/VkRenderContextImpl.h
 )
 target_include_directories(Indium PUBLIC ${LIB_ROOT}/src)

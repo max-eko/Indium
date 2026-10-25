@@ -26,7 +26,7 @@ public:
 
 private:
   GLFWwindow* m_Handle = nullptr;
-  inline static uint32_t m_WindowCount = 1;
+  inline static uint32_t m_WindowCount = 0;
 };
 
 #endif
