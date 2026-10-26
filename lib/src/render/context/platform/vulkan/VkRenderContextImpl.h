@@ -9,12 +9,11 @@
 
 class VkRenderContextImpl : public IContext {
 public:
-  VkRenderContextImpl(const std::string& name);
-
+  VkRenderContextImpl();
   void init() override;
   [[nodiscard]] RenderAPI getRenderAPI() const override { return RenderAPI::Vulkan; }
 private:
-  std::string m_AppName;
+  IRenderSurface& m_RenderSurface;
   vk::raii::Instance m_NativeInstance = nullptr;
   vk::raii::Context m_NativeContext;
 

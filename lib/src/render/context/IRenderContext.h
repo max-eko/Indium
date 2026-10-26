@@ -3,7 +3,7 @@
 
 #include <memory>
 
-#include "window/IWindow.h"
+#include "window/IRenderSurface.h"
 
 enum class RenderAPI {
   None = 0,
@@ -19,7 +19,7 @@ public:
   virtual ~IContext() = default;
 
   virtual void init();
-  virtual void bindWindow(IWindow& window);
+  virtual void bindRenderSurface(IRenderSurface& surface);
   
   [[nodiscard]] virtual RenderAPI getRenderAPI() const;
   
