@@ -7,8 +7,7 @@
 
 class VkRenderContextImpl : public IContext {
 public:
-  VkRenderContextImpl();
-  void init() override;
+  explicit VkRenderContextImpl(IRenderSurface& renderSurface);
   [[nodiscard]] RenderAPI getRenderAPI() const override { return RenderAPI::Vulkan; }
 private:
   IRenderSurface& m_RenderSurface;
@@ -28,12 +27,12 @@ private:
 #endif
 
   // Extension related params
-  uint32_t extensionCount;
-  std::vector<const char*> enabledExtensions;
+  uint32_t extensionCount = 0;
+  std::vector<const char*> enabledExtensions = {};
 
   // Helper methods for init()
   void setupDebugMessenger();
-  void checkForValidationLayers();
+  void checkForValidationLayers() const;
   void getRequiredExtensions();
 };
 

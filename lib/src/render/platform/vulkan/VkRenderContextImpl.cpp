@@ -6,7 +6,7 @@
 
 #include "util/VkDebugUtil.h"
 
-void VkRenderContextImpl::init()
+VkRenderContextImpl::VkRenderContextImpl(IRenderSurface& renderSurface) : m_RenderSurface(renderSurface), m_DebugMessenger(nullptr)
 {
   // Define standard information about the app
   // NOTE: The version provided here is inaccurate and will always be 1.0.0
@@ -50,7 +50,7 @@ void VkRenderContextImpl::setupDebugMessenger()
   m_DebugMessenger = m_NativeInstance.createDebugUtilsMessengerEXT( debugUtilsMessengerCreateInfoEXT );
 }
 
-void VkRenderContextImpl::checkForValidationLayers()
+void VkRenderContextImpl::checkForValidationLayers() const
 {
   // Get the required layers
   std::vector<char const*> requiredLayers;

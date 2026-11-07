@@ -19,11 +19,10 @@ public:
   virtual ~IContext() = default;
 
   virtual void init();
-  virtual void bindRenderSurface(IRenderSurface& surface);
   
   [[nodiscard]] virtual RenderAPI getRenderAPI() const;
   
-  static std::shared_ptr<IContext> createContext();
+  static std::shared_ptr<IContext> createContext(IRenderSurface& renderSurface);
 };
 
 #endif

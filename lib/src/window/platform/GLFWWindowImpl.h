@@ -15,7 +15,6 @@ public:
 
   const char** getVulkanExtensions(uint32_t* count) override;
 
-  void init() override;
   void pollEvents() override;
   void terminate() const override;
 
