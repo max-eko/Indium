@@ -15,30 +15,41 @@ void VkRenderContextImpl::init()
        .setEngineVersion(VK_MAKE_VERSION(1, 0, 0))
        .setApiVersion(vk::ApiVersion14);
 
-  // Get the necessary extensions
-  uint32_t extensionCount = 0;
-  const char** extensions = m_RenderSurface.getVulkanExtensions(&extensionCount);
-  // Check if these extensions are supported
-  auto extensionProperties = m_NativeContext.enumerateInstanceExtensionProperties();
-  for (uint32_t i = 0; i < extensionCount; ++i)
-  {
-    if (std::ranges::none_of(extensionProperties,
-    [extension = extensions[i]](auto const& extensionProperty)
-    { return strcmp(extensionProperty.extensionName, extension) == 0; }))
-    {
-      throw std::runtime_error("Required Vulkan extension not supported: " + std::string(extensions[i]));
-    }
-  }
-  // Convert the extensions list to a vector
-  std::vector<const char*> enabledExtensions(
-    extensions, extensions + extensionCount
-  );
+
 
   // Define an InstanceCreateInfo to create an instance
   vk::InstanceCreateInfo createInfo{};
   createInfo.setPApplicationInfo(&appInfo)
     .setEnabledExtensionCount(extensionCount)
     .setPEnabledExtensionNames(enabledExtensions);
+
+  checkForValidationLayers();
+
+  // Create the instance
+  m_NativeInstance = vk::raii::Instance(m_NativeContext, createInfo);
+
+  setupDebugMessenger();
+}
+
+void VkRenderContextImpl::setupDebugMessenger()
+{
+  if (!enableValidationLayers) return;
+  // Setup relevant info for debug messenger
+  vk::DebugUtilsMessageSeverityFlagsEXT severityFlags(vk::DebugUtilsMessageSeverityFlagBitsEXT::eWarning |
+                                                      vk::DebugUtilsMessageSeverityFlagBitsEXT::eError);
+  vk::DebugUtilsMessageTypeFlagsEXT messageTypeFlags(
+          vk::DebugUtilsMessageTypeFlagBitsEXT::eGeneral | vk::DebugUtilsMessageTypeFlagBitsEXT::ePerformance | vk::DebugUtilsMessageTypeFlagBitsEXT::eValidation);
+  // Specify create info w/ proper values
+  vk::DebugUtilsMessengerCreateInfoEXT debugUtilsMessengerCreateInfoEXT{};
+  debugUtilsMessengerCreateInfoEXT.messageSeverity = severityFlags;
+  debugUtilsMessengerCreateInfoEXT.messageType = messageTypeFlags;
+  debugUtilsMessengerCreateInfoEXT.pfnUserCallback = &debugCallback;
+  // Create debug messenger
+  m_DebugMessenger = m_NativeInstance.createDebugUtilsMessengerEXT( debugUtilsMessengerCreateInfoEXT );
+}
+
+void VkRenderContextImpl::checkForValidationLayers()
+{
   // Get the required layers
   std::vector<char const*> requiredLayers;
   if (enableValidationLayers)
@@ -57,22 +68,26 @@ void VkRenderContextImpl::init()
   {
     throw std::runtime_error("Required layer not supported: " + std::string(*unsupportedLayerIt));
   }
-  // Create the instance
-  m_NativeInstance = vk::raii::Instance(m_NativeContext, createInfo);
-  // Setup debug messenger
-  if (enableValidationLayers)
+}
+
+void VkRenderContextImpl::getRequiredExtensions()
+{
+  // Get the necessary extensions
+  extensionCount = 0;
+  const char** extensions = m_RenderSurface.getVulkanExtensions(&extensionCount);
+  // Check if these extensions are supported
+  auto extensionProperties = m_NativeContext.enumerateInstanceExtensionProperties();
+  for (uint32_t i = 0; i < extensionCount; ++i)
   {
-    // Setup relevant info for debug messenger
-    vk::DebugUtilsMessageSeverityFlagsEXT severityFlags(vk::DebugUtilsMessageSeverityFlagBitsEXT::eWarning |
-                                                        vk::DebugUtilsMessageSeverityFlagBitsEXT::eError);
-    vk::DebugUtilsMessageTypeFlagsEXT messageTypeFlags(
-            vk::DebugUtilsMessageTypeFlagBitsEXT::eGeneral | vk::DebugUtilsMessageTypeFlagBitsEXT::ePerformance | vk::DebugUtilsMessageTypeFlagBitsEXT::eValidation);
-    // Specify create info w/ proper values
-    vk::DebugUtilsMessengerCreateInfoEXT debugUtilsMessengerCreateInfoEXT{};
-    debugUtilsMessengerCreateInfoEXT.messageSeverity = severityFlags;
-    debugUtilsMessengerCreateInfoEXT.messageType = messageTypeFlags;
-    debugUtilsMessengerCreateInfoEXT.pfnUserCallback = &debugCallback;
-    // Create debug messenger
-    m_DebugMessenger = m_NativeInstance.createDebugUtilsMessengerEXT( debugUtilsMessengerCreateInfoEXT );
+    if (std::ranges::none_of(extensionProperties,
+    [extension = extensions[i]](auto const& extensionProperty)
+    { return strcmp(extensionProperty.extensionName, extension) == 0; }))
+    {
+      throw std::runtime_error("Required Vulkan extension not supported: " + std::string(extensions[i]));
+    }
   }
+  // Convert the extensions list to a vector
+  enabledExtensions = std::vector(
+    extensions, extensions + extensionCount
+  );
 }

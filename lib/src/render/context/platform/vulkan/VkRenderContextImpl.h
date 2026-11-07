@@ -26,6 +26,15 @@ private:
 #else
   inline static bool enableValidationLayers = false;
 #endif
+
+  // Extension related params
+  uint32_t extensionCount;
+  std::vector<const char*> enabledExtensions;
+
+  // Helper methods for init()
+  void setupDebugMessenger();
+  void checkForValidationLayers();
+  void getRequiredExtensions();
 };
 
 #endif
