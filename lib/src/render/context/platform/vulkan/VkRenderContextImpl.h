@@ -3,8 +3,6 @@
 
 #include <vulkan/vulkan_raii.hpp>
 
-#include <string>
-
 #include "render/context/IRenderContext.h"
 
 class VkRenderContextImpl : public IContext {
@@ -17,6 +15,15 @@ private:
   vk::raii::Instance m_NativeInstance = nullptr;
   vk::raii::Context m_NativeContext;
 
+  inline static std::vector<char const*> m_ValidationLayers = {
+    "VK_LAYER_KHRONOS_validation"
+  };
+
+#if !defined(NDEBUG) || defined(_DEBUG) || defined(DEBUG)
+  inline static bool enableValidationLayers = true;
+#else
+  inline static bool enableValidationLayers = false;
+#endif
 };
 
 #endif

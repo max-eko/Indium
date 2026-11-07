@@ -1,5 +1,7 @@
 #include "render/context/platform/vulkan/VkRenderContextImpl.h"
 
+#include <vector>
+
 void VkRenderContextImpl::init()
 {
   // Define standard information about the app
@@ -35,7 +37,25 @@ void VkRenderContextImpl::init()
   createInfo.setPApplicationInfo(&appInfo)
     .setEnabledExtensionCount(extensionCount)
     .setPEnabledExtensionNames(enabledExtensions);
+  // Get the required layers
+  std::vector<char const*> requiredLayers;
+  if (enableValidationLayers)
+  {
+    requiredLayers.assign(m_ValidationLayers.begin(), m_ValidationLayers.end());
+  }
+
+  // Check if the required layers are supported by the Vulkan implementation.
+  std::vector<vk::LayerProperties> layerProperties = m_NativeContext.enumerateInstanceLayerProperties();
+  std::ranges::borrowed_iterator_t<std::vector<const char*>&>  unsupportedLayerIt = std::ranges::find_if(requiredLayers,
+  [&layerProperties](auto const &requiredLayer) {
+    return std::ranges::none_of(layerProperties,
+      [requiredLayer](auto const &layerProperty) { return strcmp(layerProperty.layerName, requiredLayer) == 0; });
+  });
+  if (unsupportedLayerIt != requiredLayers.end())
+  {
+    throw std::runtime_error("Required layer not supported: " + std::string(*unsupportedLayerIt));
+  }
+
   // Create the instance
   m_NativeInstance = vk::raii::Instance(m_NativeContext, createInfo);
-
 }
