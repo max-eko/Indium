@@ -11,7 +11,7 @@ VkRenderContextImpl::VkRenderContextImpl(IRenderSurface& renderSurface) : m_Rend
   // Define standard information about the app
   // NOTE: The version provided here is inaccurate and will always be 1.0.0
   vk::ApplicationInfo appInfo{};
-  appInfo.setPApplicationName("Indium")
+  appInfo.setPApplicationName(renderSurface.getName().c_str())
        .setApplicationVersion(VK_MAKE_VERSION(1, 0, 0))
        .setPEngineName("Indium")
        .setEngineVersion(VK_MAKE_VERSION(1, 0, 0))

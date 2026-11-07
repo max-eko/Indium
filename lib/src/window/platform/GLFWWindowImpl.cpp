@@ -31,8 +31,6 @@ void GLFWWindowImpl::init()
 
   m_WindowCount++;
 
-
-
 }
 
 void GLFWWindowImpl::pollEvents()

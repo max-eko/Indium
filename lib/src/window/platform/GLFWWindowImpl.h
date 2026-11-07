@@ -13,6 +13,8 @@ public:
   GLFWWindowImpl(const WindowProps& props);
   ~GLFWWindowImpl() override = default;
 
+  void init() override;
+
   const char** getVulkanExtensions(uint32_t* count) override;
 
   void pollEvents() override;

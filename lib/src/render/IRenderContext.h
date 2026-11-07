@@ -17,8 +17,6 @@ public:
 
   IContext() = default;
   virtual ~IContext() = default;
-
-  virtual void init();
   
   [[nodiscard]] virtual RenderAPI getRenderAPI() const;
   
