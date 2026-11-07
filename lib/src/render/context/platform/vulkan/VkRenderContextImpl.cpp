@@ -2,6 +2,8 @@
 
 #include <vector>
 
+#include "VkDebugUtil.h"
+
 void VkRenderContextImpl::init()
 {
   // Define standard information about the app
@@ -55,7 +57,22 @@ void VkRenderContextImpl::init()
   {
     throw std::runtime_error("Required layer not supported: " + std::string(*unsupportedLayerIt));
   }
-
   // Create the instance
   m_NativeInstance = vk::raii::Instance(m_NativeContext, createInfo);
+  // Setup debug messenger
+  if (enableValidationLayers)
+  {
+    // Setup relevant info for debug messenger
+    vk::DebugUtilsMessageSeverityFlagsEXT severityFlags(vk::DebugUtilsMessageSeverityFlagBitsEXT::eWarning |
+                                                        vk::DebugUtilsMessageSeverityFlagBitsEXT::eError);
+    vk::DebugUtilsMessageTypeFlagsEXT messageTypeFlags(
+            vk::DebugUtilsMessageTypeFlagBitsEXT::eGeneral | vk::DebugUtilsMessageTypeFlagBitsEXT::ePerformance | vk::DebugUtilsMessageTypeFlagBitsEXT::eValidation);
+    // Specify create info w/ proper values
+    vk::DebugUtilsMessengerCreateInfoEXT debugUtilsMessengerCreateInfoEXT{};
+    debugUtilsMessengerCreateInfoEXT.messageSeverity = severityFlags;
+    debugUtilsMessengerCreateInfoEXT.messageType = messageTypeFlags;
+    debugUtilsMessengerCreateInfoEXT.pfnUserCallback = &debugCallback;
+    // Create debug messenger
+    m_DebugMessenger = m_NativeInstance.createDebugUtilsMessengerEXT( debugUtilsMessengerCreateInfoEXT );
+  }
 }
