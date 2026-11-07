@@ -39,6 +39,7 @@ target_sources(Indium
     ${LIB_ROOT}/src/render/context/IRenderContext.cpp
     ${LIB_ROOT}/src/window/platform/GLFWWindowImpl.cpp
     ${LIB_ROOT}/src/render/context/platform/vulkan/VkRenderContextImpl.cpp
+    ${LIB_ROOT}/src/render/context/platform/vulkan/VkDebugUtil.cpp
   PRIVATE FILE_SET HEADERS
     BASE_DIRS ${LIB_ROOT}/src
     FILES
@@ -47,6 +48,7 @@ target_sources(Indium
     ${LIB_ROOT}/src/render/context/IRenderContext.h
     ${LIB_ROOT}/src/window/platform/GLFWWindowImpl.h
     ${LIB_ROOT}/src/render/context/platform/vulkan/VkRenderContextImpl.h
+  ${LIB_ROOT}/src/render/context/platform/vulkan/VkDebugUtil.h
 )
 target_include_directories(Indium PUBLIC ${LIB_ROOT}/src)
 target_link_libraries(Indium
