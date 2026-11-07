@@ -15,10 +15,11 @@ private:
   vk::raii::Instance m_NativeInstance = nullptr;
   vk::raii::Context m_NativeContext;
 
+  // Validation layer related debug utils
   inline static std::vector<char const*> m_ValidationLayers = {
     "VK_LAYER_KHRONOS_validation"
   };
-
+ // Defaults to validation layers being enabled on a Debug build and disabled on a Release build
 #if !defined(NDEBUG) || defined(_DEBUG) || defined(DEBUG)
   inline static bool enableValidationLayers = true;
 #else
