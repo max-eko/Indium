@@ -16,6 +16,7 @@ private:
   vk::raii::Context m_NativeContext;
 
   // Validation layer related debug utils
+  vk::raii::DebugUtilsMessengerEXT m_DebugMessenger;
   inline static std::vector<char const*> m_ValidationLayers = {
     "VK_LAYER_KHRONOS_validation"
   };
