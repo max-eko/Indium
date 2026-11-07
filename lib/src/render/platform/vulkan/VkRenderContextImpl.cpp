@@ -1,4 +1,6 @@
-#include "render/context/platform/vulkan/VkRenderContextImpl.h"
+#include "render/platform/vulkan/VkRenderContextImpl.h"
+
+#include <vulkan/vulkan_raii.hpp>
 
 #include <vector>
 

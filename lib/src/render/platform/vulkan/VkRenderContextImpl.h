@@ -3,7 +3,7 @@
 
 #include <vulkan/vulkan_raii.hpp>
 
-#include "render/context/IRenderContext.h"
+#include "render/IRenderContext.h"
 
 class VkRenderContextImpl : public IContext {
 public:
