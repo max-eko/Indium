@@ -3,7 +3,7 @@
 
 #include <memory>
 
-#include "window/IRenderSurface.h"
+#include "surface/IRenderSurface.h"
 
 enum class RenderAPI {
   None = 0,

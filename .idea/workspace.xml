@@ -58,13 +58,7 @@
       <change afterPath="$PROJECT_DIR$/../TextEditor/.idea/TextEditor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Zed/.idea/Zed.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learn/learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/render/IRenderContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/IRenderContext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/render/platform/vulkan/VkRenderContextImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/render/platform/vulkan/VkRenderContextImpl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/IRenderSurface.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/IRenderSurface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/IWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/IWindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/GLFWWindowImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/GLFWWindowImpl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/window/platform/GLFWWindowImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/window/platform/GLFWWindowImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_completions_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/project_jumpitems_cache.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thallium/.cache/neocmakelsp/tree_cmake_map_cache.json" beforeDir="false" />

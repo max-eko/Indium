@@ -6,7 +6,7 @@
 
 // Core Library Headers
 #include "../../../lib/src/render/IRenderContext.h"
-#include "window/IWindow.h"
+#include "surface/IWindow.h"
 
 class Application
 {

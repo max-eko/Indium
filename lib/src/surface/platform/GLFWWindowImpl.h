@@ -4,7 +4,7 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
-#include "window/IWindow.h"
+#include "surface/IWindow.h"
 
 
 class GLFWWindowImpl: public IWindow
