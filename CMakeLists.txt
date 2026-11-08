@@ -40,6 +40,8 @@ target_sources(Indium
     ${LIB_ROOT}/src/surface/platform/GLFWWindowImpl.cpp
     ${LIB_ROOT}/src/render/platform/vulkan/VkRenderContextImpl.cpp
     ${LIB_ROOT}/src/render/platform/vulkan/util/VkDebugUtil.cpp
+    ${LIB_ROOT}/src/render/IDevice.cpp
+    ${LIB_ROOT}/src/render/platform/vulkan/VkDeviceImpl.cpp
   PRIVATE FILE_SET HEADERS
     BASE_DIRS ${LIB_ROOT}/src
     FILES
@@ -49,6 +51,8 @@ target_sources(Indium
     ${LIB_ROOT}/src/surface/platform/GLFWWindowImpl.h
     ${LIB_ROOT}/src/render/platform/vulkan/VkRenderContextImpl.h
     ${LIB_ROOT}/src/render/platform/vulkan/util/VkDebugUtil.h
+    ${LIB_ROOT}/src/render/IDevice.h
+    ${LIB_ROOT}/src/render/platform/vulkan/VkDeviceImpl.h
 )
 target_include_directories(Indium PUBLIC ${LIB_ROOT}/src)
 target_link_libraries(Indium
